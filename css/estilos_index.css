@@ -71,7 +71,72 @@ header div nav{
   .activo{
     text-decoration: none;
   }
-
 }
 
 /* Header Fin */
+
+/* Cuerpo Inicio */
+
+img{
+	box-shadow: 2px 2px #02010a;
+}
+
+#imagen_principal {
+	width: 100%;
+	background: #82c3a6;
+}
+
+#imagen_principal figure{
+	width: 80%;
+	padding: 10px;
+	height: auto;
+	margin: auto;
+}
+
+#imagen_principal figure img{
+	width: 100%;
+}
+
+#imagen_temas{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	background: #d5c75f;
+	border: 1px;
+}
+
+#imagen_temas figure{
+	width: 30%;
+	margin: auto;
+	padding: 10px;
+}
+
+@media all and (min-width:900px) {
+	#imagen_temas figure{
+		width: 40%;
+	}
+}
+
+#imagen_temas figure img{
+		width: 100%;
+		transition-property: transform;
+		transition-duration: 1s;
+}
+
+#imagen_temas figure p{
+		text-align: center;
+		text-decoration: underline;
+		font-size: 1.5em;
+}
+
+img[class="rotacion"]:hover{
+	-webkit-transform: rotate(10deg);
+	box-shadow: 2px 2px #82c3a6;
+}
+
+img[class="traslacion"]:hover{
+	-webkit-transform: translate(20px,-5px);
+	box-shadow: 2px 2px #82c3a6;
+}
+
+/* Cuerpo Fin */
