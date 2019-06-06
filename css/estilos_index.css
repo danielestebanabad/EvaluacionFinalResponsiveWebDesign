@@ -170,6 +170,24 @@ footer div div{
 		flex-basis: 20%;
 	}
 
+	footer div div ul li a {
+		color: blue;
+		text-decoration: none;
+		text-decoration: underline;
+	}
+
+	footer div div ul li a {
+		color: blue;
+		text-decoration: none;
+		text-decoration: underline;
+	}
+
+	footer div div a {
+		color: blue;
+		text-decoration: none;
+		text-decoration: underline;
+	}
+
 }
 
 footer div h4{
