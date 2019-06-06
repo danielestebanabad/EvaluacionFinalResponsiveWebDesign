@@ -7,7 +7,7 @@ body {
   width: 100%;
   display: flex;
   flex-flow: row wrap;
-  background-color: #82c3a6;
+  background-color: black;
   alignment-adjust: central;
   margin: auto;
   border-radius: 10px;
@@ -140,3 +140,55 @@ img[class="traslacion"]:hover{
 }
 
 /* Cuerpo Fin */
+
+/* Inicio Pie de Página*/
+
+footer{
+	clear: both;
+	width: 100%;
+	bottom: 0;
+	background: #c6d5c5;
+	padding: 20px 40px;
+	border-radius: 0 0 10px 10px;
+}
+
+.pie {
+	margin: 0 auto;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+footer div div{
+	flex-grow: 1;
+	flex-basis: 100%;
+	padding: 10px;
+}
+
+@media all and (min-width:900px) {
+	footer div div{
+		flex-basis: 20%;
+	}
+
+}
+
+footer div h4{
+	margin: 5px 0;
+	font-size: 30px;
+}
+
+footer div p{
+	margin: 0;
+}
+
+/* Fin Pie de Página */
+
+/**********************************************************/
+
+/* Animación */
+
+@-webkit-keyframes rebote{
+	0%{margin-top: 150%}
+	60%{margin-top: -5%}
+	100%{margin-top: 0%}
+}
